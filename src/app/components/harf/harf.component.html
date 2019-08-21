@@ -1,0 +1,6 @@
+<div class="harf shadow mr-3">
+  <span @flyAnimations *ngIf="acik; else acikDegil">{{ deger }}</span>
+  <ng-template #acikDegil>
+    <span></span>
+  </ng-template>
+</div>
